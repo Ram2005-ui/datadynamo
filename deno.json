@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "std/http/": "https://deno.land/std@0.168.0/http/",
+    "supabase-js": "https://esm.sh/@supabase/supabase-js@2.38.0"
+  },
+  "tasks": {
+    "start": "deno run --allow-env --allow-net supabase/functions/google-auth-verify/index.ts"
+  }
+}
